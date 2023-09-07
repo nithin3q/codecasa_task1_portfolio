@@ -1,0 +1,203 @@
+.my-container{
+  background-color: rgb(36, 204, 230);
+}
+body{
+background-color: rgb(255, 255, 255);
+max-width: 100%;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+  color: rgb(242, 215, 77);
+  outline-style: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+h3{
+color:rgb(82, 69, 4)
+}
+
+.my-rows{
+  border: 3px solid black;
+  
+  padding: 5px;
+}
+
+.feedback-link {
+text-decoration: none;
+}
+
+.feedback-text {
+color: blue;
+text-decoration: none;
+}
+.my-cols{
+  background-color: aquamarine;
+  
+  border: 2px solid red;
+}
+#topHeader{
+  background-color: ghostwhite;
+  border-bottom: 1px solid silver;
+}
+#topHeader a{
+  color: black;
+  font-weight: 600;
+  font-size: 0.89rem;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right:0 ;
+} 
+.logo{
+  border-radius: 10px;
+}
+.my-row{
+  background-color: #b22a2a!important;
+  color: rgb(247, 216, 104);
+  padding-left: 0;
+  padding-right: 0;
+}
+.social-media {
+  list-style: none;
+  padding: 0;
+  background-color: #b22a2a!important;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.social-media li a {
+  color: #a77a08; /* Change the icon color */
+  font-size: 28px; /* Increase the icon size */
+}
+
+.nithin{
+  background-color: #b22a2a;
+}
+/* .full-footer{
+  position: absolute;
+} */
+
+
+.material-symbols-outlined {
+padding: 10px;
+font-size: 30px;
+color: #a77a08;
+font-variation-settings:
+'FILL' 0,
+'wght' 4000,
+'GRAD' 0,
+'opsz' 48
+}
+
+
+
+#scrollToTopBtn {
+display: none;
+position: fixed;
+bottom: 20px;
+right: 20px;
+width: 60px;
+height: 60px;
+background-color: #000;
+color: #fff;
+border: none;
+border-radius: 20%;
+font-size: 20px;
+cursor: pointer;
+}
+
+#scrollToTopBtn.show {
+display: block;
+}
+
+
+/*.navbar {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*  }*/
+
+#topHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f8f9fa; /* Add your desired background color */
+  padding: 10px 0; /* Add padding to the top and bottom */
+  z-index: 9999; /* Set a high z-index to ensure it appears above other content */
+}
+
+/* Fix the navbar at the top position */
+.navbar {
+  position: fixed;
+  top: 30px; /* Adjust this value based on the height of the top header */
+  left: 0;
+  right: 0;
+  z-index: 9998; /* Set a z-index lower than the top header, so it's below it */
+}
+
+/* Add space below the fixed header and navbar for the contents */
+#bootomHeader {
+  padding-top: 120px; /* Adjust this value based on the combined height of the fixed header and navbar */
+}
+
+/* Optional: Custom cursor styles for the link */
+.custom-cursor:hover {
+  cursor: pointer;
+}
+
+
+/*nithin*/
+.wrapper{
+  display: flex;
+}
+.wrapper .dynamic-txts{
+  margin-left: -30px;
+  height: 70px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #ca8c08;
+  font-size: 37px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 0px;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 10px;
+  top:-20px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 70px;
+  width: 340px;
+  background: #ffffff;
+  border-left: 2px solid #ff0707;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
