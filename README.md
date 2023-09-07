@@ -5,12 +5,12 @@ This repository contains the source code for my personal portfolio website. The 
 ## Technologies Used
 The portfolio website is built using the following technologies:
 
-HTML5
-CSS3
-JavaScript
-Bootstrap 5
-Font Awesome icons
-Google Fonts
+- HTML5
+= CSS3
+- JavaScript
+- Bootstrap 5
+- Font Awesome icons
+- Google Fonts
 Sections
 The website is divided into several sections to provide structured information:
 
